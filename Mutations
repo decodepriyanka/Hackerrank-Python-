@@ -1,0 +1,10 @@
+#create a function having arguments string position & character
+#here we slice the string upto the input position and then add the input character and slice
+#the string from position to the end
+
+def mutate_string(string,position,character):
+    return string[:position]+character + string[position+1:]
+s=input() #input for string
+i,c=input().split() #input for position & character and then split it
+s_new=mutate_string(s,int(i),c) 
+print(s_new)
