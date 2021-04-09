@@ -1,9 +1,9 @@
 n = input().split()
 
-arr = list(map(int, input().strip().split()))
+arr = list(map(int, input().split()))
 
-A = set(map(int, input().strip().split()))
-B = set(map(int, input().strip().split()))
+A = set(map(int, input().split()))
+B = set(map(int, input().split()))
 count=0
 for i in arr:
     if i in A:
