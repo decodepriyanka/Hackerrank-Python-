@@ -1,0 +1,4 @@
+s = set()    #create an empty set
+for _ in range(int(input())): 
+    s.add(input())  #start adding the input 
+print(len(s))     # it will print only the different input 
