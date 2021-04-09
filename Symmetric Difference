@@ -3,7 +3,7 @@ a=set((map(int,input().split())))
 N=int(input())
 b=set(map(int,input().split()))
 
-diff1=a.difference(b)
+diff1=a.difference(b)   #the returned set contains items that exist only in the first set, and not in both sets.
 diff2=b.difference(a)
 output = sorted(list(diff1.union(diff2)))
 for i in output:
